@@ -1,0 +1,1 @@
+for i in `cat domain_list.txt`; do  curl -A '"Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3"' $i ; done
